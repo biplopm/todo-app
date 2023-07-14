@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo {
+  text-align: center;
+  padding-top: 100px;
+}
+
+input {
+  padding: 10px;
+}
+
+.btn {
+  padding: 10px;
+  background-color: #30a745;
+  color: #000;
+  border: 1px solid #032b0a;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  padding-top: 20px;
+}
