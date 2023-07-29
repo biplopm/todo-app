@@ -1,28 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.todo {
-  text-align: center;
+.container {
   padding-top: 100px;
 }
 
-input {
-  padding: 10px;
+.loader {
+  display: none;
 }
 
-.btn {
-  padding: 10px;
-  background-color: #30a745;
-  color: #000;
-  border: 1px solid #032b0a;
-  margin-left: 20px;
-  cursor: pointer;
+.msg {
+  font-size: 200px;
 }
 
-li {
-  list-style: none;
-  padding-top: 20px;
+.progress-bar {
+  width: 100%;
+}
+
+.progress-bar .bar {
+  width: 0;
+  background-color: rgb(163, 188, 19);
+  height: 30px;
+  border-radius: 10px;
+  transition: 1.5s;
 }
